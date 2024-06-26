@@ -1,0 +1,65 @@
+@import url(./swiper.css);
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+
+    font-family: Agbalumo;
+    background-color: gray;
+
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+}
+/*Header*/
+
+header {
+    background-color: orange ;
+
+    color:white ;
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  header img {
+    width: 75px;
+  }
+
+  header a:hover{
+    color: rgb(255, 200, 0);
+  }
+  
+  .navBarHeader,
+  .navSocialMediaHeader {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navSocialMediaHeader i {
+    font-size: 20px;
+  }
+   button{
+
+   }
+   button a:hover{
+    color: rgb(255, 200, 0);
+   }
+  
+
+  
+  
+  .burgerMenu{
+    display: none;}
