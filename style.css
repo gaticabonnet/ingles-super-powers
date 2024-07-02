@@ -12,8 +12,8 @@ color: white;
 
 }
 video{
- height: 300px;
- width: 600px;
+ height: 450px;
+ width: 800px;
 }
 
 h2{
@@ -34,7 +34,7 @@ a{
 header {
     background-color: orange ;
 
-    color:white ;
+    color:black ;
     display: flex;
 
     justify-content: space-evenly;
